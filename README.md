@@ -6,6 +6,8 @@ A [Streamlit](https://docs.streamlit.io/?utm_source=chatgpt.com) app that lets y
 
 This app is currently under construction 🏗️
 
+You can find [live app here](https://celebrity-height-app-4z9tos9maderykxcqq4cvy.streamlit.app/)
+
 ## Technical Documentation
 
 Technical documentation explains how the project works behind the scenes. It focuses on the technologies used, the structure of the code, and the steps required to install, run, and maintain the app. This section is written for developers.
