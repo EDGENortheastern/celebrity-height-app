@@ -1,4 +1,4 @@
-import streamlit as st  # 🌐 Used to build web apps with Python
+# import streamlit as st  # 🌐 Used to build web apps with Python
 import plotly.express as px  # 📊 For creating interactive charts and visualisations
 import pandas as pd  # 🧮 For data analysis and manipulation
 
