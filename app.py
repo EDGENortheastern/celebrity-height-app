@@ -9,6 +9,9 @@ height = get_user_height()
 st.write(f"Your height: {height} cm")
 
 celebs_df = pd.read_csv("celebs_height.csv")
+user_row = pd.DataFrame({"Name": ["You"], "Height_cm": [height]})
+celebs_df = pd.concat([celebs_df, user_row], ignore_index=True)
+celebs_df = celebs_df.sort_values(by="Height_cm", ascending=False).reset_index(drop=True)
 
 fig = build_chart(celebs_df)
 st.plotly_chart(fig, use_container_width=True)

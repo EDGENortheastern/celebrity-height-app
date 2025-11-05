@@ -32,5 +32,7 @@ def build_chart(df: pd.DataFrame):
         showlegend=False,
         margin=dict(l=40, r=40, t=80, b=120)
     )
-    
+    tickvals = df["Name"].tolist()
+    ticktext = [f"<span style='color:red; font-weight:bold'>{n}</span>" if n == "You" else n for n in df["Name"]]
+    fig.update_xaxes(tickvals=tickvals, ticktext=ticktext)
     return fig
