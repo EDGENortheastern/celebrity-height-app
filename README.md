@@ -4,7 +4,36 @@ A [Streamlit](https://docs.streamlit.io/?utm_source=chatgpt.com) app that lets y
 
 ## User Documentation
 
-This app is currently under construction 🏗️
+### Step 1: Open the app
+
+Click [this link](https://celebrity-height-app-4z9tos9maderykxcqq4cvy.streamlit.app/) to launch the app in your browser.
+
+### Step 2: Enter your height
+
+In the box labelled “Enter your height (cm)”, type your height in centimetres.
+Press Return on your keyboard to confirm.
+
+### Step 3:Check your height
+
+Your height will appear below the input box so you can double-check it.
+
+### Step 4: See yourself on the chart
+
+Scroll down to view the colourful bar chart.
+Each bar represents a celebrity’s height and one bar represents **You**.
+That’s where you can see yourself among the celebs!
+
+### Step 5: Try different values
+
+Use the ➕ or ➖ buttons to adjust your height.
+The chart updates instantly so you can experiment or compare your friends.
+
+### Step 6: Refresh anytime 🔄️
+
+To start again, refresh the page 🔄️ or reopen the link.
+
+![User Guide Screenshot](guides-assets/user-guide.png)
+**Figure 1:** User guide showing where to enter your height and view the comparison chart.
 
 You can find [live app here](https://celebrity-height-app-4z9tos9maderykxcqq4cvy.streamlit.app/)
 
@@ -83,9 +112,9 @@ You already have this file in your project, so you don’t need to create it aga
 
 If you want to learn how to create or update a requirements.txt file for other projects, go to the Developer Manual for detailed instructions.
 
-## Developer Manual
+## Developer Manual 🧑‍💻
 
-The Developer Manual is a step-by-step guide that explains how to rebuild or extend the app from scratch.
+The Developer Manual is a step-by-step guide that shows how to get started with [Streamlit](https://docs.streamlit.io/) and understand the basic structure of the app. It helps new contributors set up their environment and run the project locally.
 
 You need to create your own repository on GitHub, clone it to your computer, and then install the required dependencies.
 
@@ -127,4 +156,4 @@ streamlit run app.py
 Streamlit will open automatically in your browser and display the title and message! See below what it should look like:
 
 ![Streamlit start screen](guides-assets/streamlit-start.png)
-
+**Figure 2:** Developer guide showing how to start the app with Streamlit.

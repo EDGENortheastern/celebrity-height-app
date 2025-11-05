@@ -16,4 +16,4 @@ celebs_df = celebs_df.sort_values(by="Height_cm", ascending=False).reset_index(d
 fig = build_chart(celebs_df)
 st.plotly_chart(fig, use_container_width=True)
 
-st.success("✅ Chart generated successfully")
+st.success("✅ Chart loaded")
