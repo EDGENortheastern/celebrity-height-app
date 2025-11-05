@@ -102,3 +102,18 @@ You can save this list to a new file called `requirements.txt` by running:
 ```bash
 pip freeze > requirements.txt
 ```
+
+### Create and try `app.py`
+
+To begin, create a new file named app.py inside your project folder using your file system or directly in Visual Studio Code.
+This file will serve as the main entry point for your Streamlit app — it controls what appears on the screen when the app runs.
+
+Add in the following starter code:
+
+```python
+import streamlit as st # for to build web apps with Python
+
+st.set_page_config(page_title="Celebrity Height Comparison", page_icon="📏")
+st.title("📏 Celebrity Height Comparison")
+st.write("Hello! Your app is running successfully.")
+```
