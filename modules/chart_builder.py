@@ -11,17 +11,15 @@ def build_chart(df: pd.DataFrame):
         color="Name",
         text="Height_cm",
         title="📏 Celebrity Height Comparison Chart",
-        hover_data={"Name": True, "Height_cm": False},  # we’ll override the label manually
+        hover_data={"Name": True, "Height_cm": False},  
     )
-    
-    # ✏️ Custom hover labels
+
     fig.update_traces(
-        hovertemplate="<b>%{x}</b><br>Height: %{y} cm<extra></extra>",  # clean label format
+        hovertemplate="<b>%{x}</b><br>Height: %{y} cm<extra></extra>",  
         textposition="outside",
         cliponaxis=False
     )
-    
-    # 🎨 Layout improvements
+
     fig.update_layout(
         title={
             'text': "📏 Celebrity Height Comparison",
