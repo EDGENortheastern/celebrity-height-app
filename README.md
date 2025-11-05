@@ -117,3 +117,14 @@ st.set_page_config(page_title="Celebrity Height Comparison", page_icon="📏")
 st.title("📏 Celebrity Height Comparison")
 st.write("Hello! Your app is running successfully.")
 ```
+
+When you save the file, run:
+
+```bash
+streamlit run app.py
+```
+
+Streamlit will open automatically in your browser and display the title and message! See below what it should look like:
+
+![Streamlit start screen](guides-assets/streamlit-start.png)
+
